@@ -5,7 +5,7 @@ import joblib
 model = joblib.load("diabetes_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
-st.title("Diabetes Prediction App")
+st.title("Diabetes-Prediction App")
 
 preg = st.number_input("Pregnancies")
 glucose = st.number_input("Glucose")
